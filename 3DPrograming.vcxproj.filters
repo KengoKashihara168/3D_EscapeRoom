@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c2d376cd-01d3-4161-ae70-8caf697a9abf</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>33d27b96-0970-45dd-ba5c-04a726dfdc18</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{b9b5ecd3-5c88-4a62-9cbc-22232e24fd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGame">
+      <UniqueIdentifier>{e5e60bd3-2160-4fd1-959e-592bacdc260f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneTitle">
+      <UniqueIdentifier>{e6d3eba7-ad39-4ae2-ba76-7b54dc6bbae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneResult">
+      <UniqueIdentifier>{3479da7b-500b-4441-b3a9-ad6f77b1b34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGame\Suspicion">
+      <UniqueIdentifier>{12110de3-84a7-4c12-b6ea-4866248a0c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGame\Ornament">
+      <UniqueIdentifier>{8a351c00-d650-4e14-aff0-26160808fe18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGame\Item">
+      <UniqueIdentifier>{fd99725c-e55e-4d88-9d92-5a8f3b5ad7b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneResult\SceneResult.h">
+      <Filter>SceneResult</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle\SceneTitle.h">
+      <Filter>SceneTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\GameObject.h">
+      <Filter>SceneGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Player.h">
+      <Filter>SceneGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\SceneGame.h">
+      <Filter>SceneGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="Sprites.h" />
+    <ClInclude Include="SceneGame\Suspicion\Shelly.h">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Suspicion\Suspicion.h">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Suspicion\BigShelly.h">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Suspicion\Door.h">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Ornament\Ornament.h">
+      <Filter>SceneGame\Ornament</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Item\Item.h">
+      <Filter>SceneGame\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Item\Key.h">
+      <Filter>SceneGame\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonDR.h" />
+    <ClInclude Include="SceneGame\EventFlag.h">
+      <Filter>SceneGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame\Camera.h">
+      <Filter>SceneGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneResult\SceneResult.cpp">
+      <Filter>SceneResult</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle\SceneTitle.cpp">
+      <Filter>SceneTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\GameObject.cpp">
+      <Filter>SceneGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Player.cpp">
+      <Filter>SceneGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\SceneGame.cpp">
+      <Filter>SceneGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp" />
+    <ClCompile Include="SceneGame\Suspicion\Suspicion.cpp">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Suspicion\Shelly.cpp">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Suspicion\BigShelly.cpp">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Suspicion\Door.cpp">
+      <Filter>SceneGame\Suspicion</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Ornament\Ornament.cpp">
+      <Filter>SceneGame\Ornament</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Item\Item.cpp">
+      <Filter>SceneGame\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonDR.cpp" />
+    <ClCompile Include="SceneGame\Item\Key.cpp">
+      <Filter>SceneGame\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\EventFlag.cpp">
+      <Filter>SceneGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame\Camera.cpp">
+      <Filter>SceneGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Models\Ceiling.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\Door.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\DoorSidePanel.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\Floor.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\Key.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\Shelly.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\Stack.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\WallPanel.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Models\BigShelly.FBX">
+      <Filter>Models</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
